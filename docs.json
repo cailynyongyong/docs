@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Momo Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#E66386",
+    "light": "#EB88A2",
+    "dark": "#BA3458"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/momo.svg",
   "navigation": {
     "tabs": [
       {
@@ -22,47 +22,29 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Core concepts",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "essentials/how-it-works",
+              "essentials/add-memory",
+              "essentials/search-memory",
+              "essentials/update-memory",
+              "essentials/delete-memory"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Connectors",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "connectors/gmail",
+              "connectors/slack",
+              "connectors/github",
+              "connectors/linear",
+              "connectors/salesforce"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Support & Troubleshooting",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "support/troubleshooting"
             ]
           }
         ]
@@ -114,9 +96,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/getyourmomo",
+      "github": "https://github.com/momo-personal-assistant",
+      "linkedin": "https://linkedin.com/company/momo-memory"
     }
   }
 }
