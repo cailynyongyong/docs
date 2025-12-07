@@ -15,11 +15,7 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["index"]
           },
           {
             "group": "Core concepts",
@@ -33,13 +29,7 @@
           },
           {
             "group": "Connectors",
-            "pages": [
-              "connectors/gmail",
-              "connectors/slack",
-              "connectors/github",
-              "connectors/linear",
-              "connectors/salesforce"
-            ]
+            "pages": ["connectors/gmail"]
           },
           {
             "group": "Support & Troubleshooting",
@@ -48,38 +38,47 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Research Progress",
+            "pages": ["chagelog/research-progress"]
+          }
+        ]
       }
     ],
     "global": {
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://momo-abf59aa6.mintlify.app/",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Changelog",
+          "href": "https://momo-abf59aa6.mintlify.app/changelog",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/momo-logo.png",
+    "dark": "/logo/momo-logo.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:cailyn@usemomo.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Home",
+      "href": "https://usemomo.com"
     }
   },
   "contextual": {
