@@ -65,8 +65,8 @@
     }
   },
   "logo": {
-    "light": "/logo/momo-logo.png",
-    "dark": "/logo/momo-logo.png"
+    "light": "/logo/momo.png",
+    "dark": "/logo/momo.png"
   },
   "navbar": {
     "links": [
