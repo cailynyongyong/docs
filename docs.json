@@ -9,27 +9,41 @@
   },
   "favicon": "/momo.png",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://momo-abf59aa6.mintlify.app/"
+        },
+        {
+          "anchor": "Changelog",
+          "icon": "newspaper",
+          "href": "https://momo-abf59aa6.mintlify.app/changelog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index"]
+            "pages": [
+              "index"
+            ]
           },
           {
             "group": "Core concepts",
             "pages": [
-              "essentials/how-it-works",
-              "essentials/add-memory",
-              "essentials/search-memory",
-              "essentials/update-memory",
-              "essentials/delete-memory"
+              "essentials/how-it-works"
             ]
           },
           {
             "group": "Connectors",
-            "pages": ["connectors/gmail"]
+            "pages": [
+              "connectors/gmail"
+            ]
           },
           {
             "group": "Support & Troubleshooting",
@@ -44,25 +58,13 @@
         "groups": [
           {
             "group": "Research Progress",
-            "pages": ["changelog/research-progress"]
+            "pages": [
+              "changelog/research-progress"
+            ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://momo-abf59aa6.mintlify.app/",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Changelog",
-          "href": "https://momo-abf59aa6.mintlify.app/changelog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/momo.png",

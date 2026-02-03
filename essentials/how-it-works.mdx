@@ -1,5 +1,66 @@
 ---
 title: "How Momo works"
-description: "Updates to be released soon."
+description: "Momo's self-evolving memory architecture
+"
 icon: "brain"
 ---
+
+## Auto indexing and extraction
+
+Momo doesn't rely on the user to manually add memories. Instead, we built a connector that automatically extracts "decision" memories on behalf of the user. These decisions are solely based on the user's inputs made in each of the apps. For example, for Gmail connector, it would be based on the emails that the user sent. For Github, the commits and PRs made, for Notion, pages that were created or edited. 
+
+<img
+  src="/images/Screenshot2026-02-02at10.36.24PM.png"
+  alt="Screenshot 2026 02 02 At 10 36 24 PM"
+  title="Screenshot 2026 02 02 At 10 36 24 PM"
+  className="mx-auto"
+  style={{ width:"100%" }}
+/>
+
+I addition, Momo subscribes to newly incoming messages, extracts decisions, and updates the company memory graph based on the existing nodes.
+
+"Decisions" that are extracted from each of the apps are commitments or directions that were made in the message or event. Examples can be, "Cailyn contacted Acme for partnership proposal discussions" or "Bryan updated the backend infrastructure on knowledge graphs." On the other hand, Momo filters out messages that do not contain any useful information, like simple greetings or irrelevant conversations. 
+
+## Establishing relationships
+
+During extraction, Momo extracts each decision as a universal data structure. For each decision, the decision summaries, related entities, people, and the source metadata are saved and updated to the knowlege graph. Because decisions from Gmail, Notion, Slack, etc. maintain the same data structure, any decisions that have the same people or entities are linked together as an edge in the memory graph. 
+
+Once that's established, if you search for a specific person or entity, all relevant decisions immediately show up. 
+
+<img
+  src="/images/Screenshot2026-02-03at12.04.40AM.png"
+  alt="Screenshot 2026 02 03 At 12 04 40 AM"
+  title="Screenshot 2026 02 03 At 12 04 40 AM"
+  className="mx-auto"
+  style={{ width:"88%" }}
+/>
+
+## Team sync and filtering
+
+The real value of Momo is when a team workspace is created, and you start connecting your work kwowledge graph with other teammates. 
+
+In this example, you can see that two teams are created (Engineering, Support), and the relevant members are linked with an edge. 
+
+![Screenshot 2026 02 03 At 12 14 08 AM](/images/Screenshot2026-02-03at12.14.08AM.png)
+
+To go further into the decision graph, you can observe that Marcus from Support team replied to a customer ticket regarding payment failures through Stripe. 
+
+<img
+  src="/images/Screenshot2026-02-03at12.17.34AM.png"
+  alt="Screenshot 2026 02 03 At 12 17 34 AM"
+  title="Screenshot 2026 02 03 At 12 17 34 AM"
+  style={{ width:"100%" }}
+/>
+
+Another decision is linked to that node, which shows that Priya from Engineering is working on fixing that issue, with the decision title "Hotfix: Increase Stripe webhook timeout." 
+
+![Screenshot 2026 02 03 At 12 17 44 AM](/images/Screenshot2026-02-03at12.17.44AM.png)
+
+You can further filter down your team's memories with the following: 
+
+- time period
+- sources
+- departments
+- team members
+
+![Screenshot 2026 02 03 At 12 26 36 AM](/images/Screenshot2026-02-03at12.26.36AM.png)
