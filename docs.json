@@ -42,12 +42,17 @@
           {
             "group": "Connectors",
             "pages": [
-              "connectors/gmail",
-              "connectors/slack",
-              "connectors/notion",
-              "connectors/github",
-              "connectors/discord",
-              "connectors/linear"
+              {
+                "group": "Apps",
+                "pages": [
+                  "connectors/gmail",
+                  "connectors/slack",
+                  "connectors/notion",
+                  "connectors/github",
+                  "connectors/discord",
+                  "connectors/linear"
+                ]
+              }
             ]
           },
           {
